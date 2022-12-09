@@ -1,0 +1,52 @@
+h1{
+    color: purple;
+    font-weight: 1;
+    text-transform: uppercase;
+    border-top: 5px solid;
+    font-size:75px;
+    margin: 40px;
+    letter-spacing: 2px;
+}
+
+
+body {
+    background-color: salmon;
+    color: purple;
+    font-family:sans-serif;
+    font-weight: bold;
+}
+
+img {
+    height: 500px;
+    border-radius: 30%;
+}
+
+button {
+    margin: 30px auto 0;
+    padding: 20px 25px;
+    background-color: salmon;
+    font-size: 20px;
+    text-align: center;
+    border:1px solid #2E1263;
+    text-transform: uppercase;
+    text-decoration: none;
+    outline: none;
+    letter-spacing: 4px;
+    color: purple;
+}
+
+button:hover {
+    text-decoration: underline;
+    transition: 0.4s;
+    background-color: purple;
+    color: salmon;
+}
+
+#container{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    height:96vh;
+
+}

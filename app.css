@@ -3,7 +3,7 @@ h1{
     font-weight: 1;
     text-transform: uppercase;
     border-top: 5px solid;
-    font-size:75px;
+    font-size: 450%;
     margin: 40px;
     letter-spacing: 2px;
 }
@@ -43,10 +43,10 @@ button:hover {
 }
 
 #container{
-    /* display:flex;
-    flex-direction: column; */
+    display:flex;
+    flex-direction: column;
     align-items:center;
     justify-content: center;
-    height:800px;
+    height:100vh;
 
 }

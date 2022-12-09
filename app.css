@@ -3,7 +3,6 @@ h1{
     font-weight: 1;
     text-transform: uppercase;
     border-top: 5px solid;
-    /* font-size: 450%; */
     font-size: 75px;
     margin: 40px;
     letter-spacing: 2px;
@@ -48,6 +47,6 @@ button:hover {
     flex-direction: column;
     align-items:center;
     justify-content: center;
-    height:100vh;
+    height:96vh;
 
 }

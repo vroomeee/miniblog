@@ -15,8 +15,8 @@ var imgn = 0
 btn.addEventListener("click", function(){
     if (imgn === 5){
         imgn = 0
-    }
-    img.src = pics[imgn]
-    imgn ++
+    };
+    img.src = pics[imgn];
+    imgn ++;
 
 });

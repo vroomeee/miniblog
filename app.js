@@ -1,5 +1,3 @@
-// alert("hi");
-
 //list of images
 var pics = [
     "img/1.jpg",
@@ -11,7 +9,8 @@ var pics = [
 ];
 
 var btn = document.querySelector("button");
-btn.addEventListener("click", function(){
-alert("hi")
-})
+var img = docuemtn.querySelector('img');
 
+btn.addEventListener("click", function(){
+    alert(img.src)
+});

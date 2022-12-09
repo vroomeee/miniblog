@@ -13,10 +13,11 @@ var img = document.querySelector('img');
 var imgn = 0
 
 btn.addEventListener("click", function(){
-    if (imgn === 5){
-        imgn = 0
+    if (imgn > 4){
+        imgn = 0;
+    } else{
+        imgn ++;
     };
-    img.src = pics[imgn];
-    imgn ++;
+    img.src = pics[imgn]
 
 });

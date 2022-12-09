@@ -9,8 +9,14 @@ var pics = [
 ];
 
 var btn = document.querySelector("button");
-var img = docuemtn.querySelector('img');
+var img = document.querySelector('img');
+var imgn = 0
 
 btn.addEventListener("click", function(){
-    alert(img.src)
+    if (imgn === 5){
+        imgn = 0
+    }
+    img.src = pics[imgn]
+    imgn ++
+
 });

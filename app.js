@@ -19,6 +19,6 @@ btn.addEventListener("click", function(){
     } else{
         imgn ++;
     };
-    img.src = pics[imgn]
+    img.src = pics[imgn];
 
 });

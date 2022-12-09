@@ -1,11 +1,11 @@
 //list of images
 var pics = [
-    "img/1.jpg",
-    "img/2.jpg",
-    "img/3.jpg",
-    "img/4.jpg",
-    "img/5.jpg",
-    "img/6.jpg"
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg"
 ];
 
 var btn = document.querySelector("button");

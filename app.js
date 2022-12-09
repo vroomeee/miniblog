@@ -10,7 +10,8 @@ var pics = [
 
 var btn = document.querySelector("button");
 var img = document.querySelector('img');
-var imgn = 0
+var imgn = 0;
+img.src = pics[imgn];
 
 btn.addEventListener("click", function(){
     if (imgn > 4){

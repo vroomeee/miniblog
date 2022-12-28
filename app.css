@@ -18,7 +18,7 @@ body {
 
 img {
     height: 500px;
-    border-radius: 30%;
+    border-radius: 0%;
 }
 
 button {
@@ -48,5 +48,5 @@ button:hover {
     align-items:center;
     justify-content: center;
     height:100vh;
-
 }
+
